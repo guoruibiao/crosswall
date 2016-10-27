@@ -1,6 +1,9 @@
 # crosswall
 :heart: 翻墙小工具，适合学术粉使用
 
+
+点击下载---->>>>>>><a href="https://github.com/guoruibiao/crosswall/raw/master/crowall.exe"><img src="https://github.com/guoruibiao/crosswall/raw/master/downloadicon.png"></a> 
+
 更多细节，可以参考下面的文章链接 http://blog.csdn.net/marksinoberg/article/details/52934770
 
 ---
