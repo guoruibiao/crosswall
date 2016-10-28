@@ -8,7 +8,7 @@
 
 ---
 
-先说说这个小工具的原理吧，就是替换hosts文件。然后其依赖于GitHub上一个维护小组（https://github.com/racaljk/hosts）的hosts更新文件。
+先说说这个小工具的原理吧，就是替换hosts文件。然后其依赖于GitHub上一个维护小组（  https://github.com/racaljk/hosts  ）的hosts更新文件。
 
 然后这个工具在每次运行的时候，都会自动的下载最新的hosts文件，并在备份当前的hosts文件为hosts_bak后自动的完成替换工作。
 
