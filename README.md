@@ -4,8 +4,7 @@
 
 点击下载---->>>>>>><a href="https://github.com/guoruibiao/crosswall/raw/master/crowall.exe"><img src="https://github.com/guoruibiao/crosswall/raw/master/downloadicon.png"></a> 
 
-更多细节，可以参考下面的文章链接 http://blog.csdn.net/marksinoberg/article/details/52934770
-
+更多细节，可以参考下面的文章链接 http://blog.csdn.net/marksinoberg/article/details/52943194
 ---
 
 先说说这个小工具的原理吧，就是替换hosts文件。然后其依赖于GitHub上一个维护小组（  https://github.com/racaljk/hosts  ）的hosts更新文件。
