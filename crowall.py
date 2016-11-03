@@ -29,7 +29,7 @@ def crosswall(systemtype='Window'):
             print 'It\'s done on Windows! And Try your browser!'
         elif systemtype == "Linux":
             os.system('cp /etc/hosts /etc/hosts_bak')
-            os.system('mv ./hosts /etc/hosts')
+            os.system('mv ./hosts.txt /etc/hosts')
             os.system('pause')
             os.system('sudo /etc/init.d/networking restart ')
             print 'It\'s done on Linux! And Try your browser!'
