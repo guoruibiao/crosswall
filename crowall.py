@@ -28,11 +28,16 @@ def crosswall(systemtype='Window'):
             os.system('pause')
             print 'It\'s done on Windows! And Try your browser!'
         elif systemtype == "Linux":
-            os.system('cp /etc/hosts /etc/hosts_bak')
+            os.system('cp /etc/hosts.txt /etc/hosts_bak')
             os.system('mv ./hosts /etc/hosts')
             os.system('pause')
             os.system('sudo /etc/init.d/networking restart ')
             print 'It\'s done on Linux! And Try your browser!'
+        elif systemtype == "Darwin":
+            os.system('sudo cp /etc/hosts /etc/host_bak')
+            os.system('sudo mv ./hosts.txt /etc/hosts')
+            os.system('sudo ifconfig en0 down && sudo ifconfig en0 up')
+            print 'It\'s done on Mac! And Try your browser!'
     except Exception as e:
         print e
 
