@@ -45,7 +45,7 @@ def crosswall(systemtype='Window'):
 
 if __name__ == '__main__':
 
-    url = 'https://raw.githubusercontent.com/racaljk/hosts/master/hosts'
+    url = 'https://raw.githubusercontent.com/googlehosts/hosts/master/hosts-files/hosts'
     downloadHosts(url=url)
     print 'Hosts update success!'
     crosswall(platform.system())
